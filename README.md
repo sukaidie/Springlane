@@ -1,2 +1,0 @@
-# Springlane
-Lösung zur Aufgabe
