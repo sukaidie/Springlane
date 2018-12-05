@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <script type="text/javascript" src="lib/jquery-1.12.2.min.js"></script>
+    <title>Springlane</title>
+  </head>
+  <body>
+
+    <!-- Header ------------------------------------------->
+    <header>
+      <div id="logo">
+        <a href="https://www.springlane.de/">
+          <img srcset="https://www.springlane.de/media/vector/e8/6a/c1/springlane-1.svg" alt="logo">
+        </a>
+      </div>
+      <nav id="main-nav">
+        <ul>
+          <a href="#home"><li>Home</li></a>
+          <a href="#about"><li>About</li></a>
+          <a href="#photography"><li>Photography</li></a>
+          <a href="#aufgabe"><li>Aufgabe</li></a>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Home ------------------------------------------->
+    <section id="home">
+      <h1>Willkommen!</h1>
+      <h2>Aus Liebe zum Kochen | Springlane.de</h2>
+      <a href="#about">
+        <img src="img/pfeil.png" alt="pfeil">
+      </a>
+    </section>
+
+    <!-- About ------------------------------------------->
+    <section id="about">
+      <h3>About</h3>
+      <hr>
+      <img src="img/avatar.png" alt="avatar">
+      <h4>Programmer & Designer & Photographer</h4>
+      <p>"Guten Tag, mein Name ist Kaidie Su, komme aus China und studiere Angewandte Informatik an Universität Duisburg-Essen. Bevor ich nach Deutschland kam, habe ich ein Bachelor-Studium im Studiengang Industrial Design abgeschlossen und nachdem habe ich 10 Monate lang in China als Produktdesigner gearbeitet. Hieraus habe ich reiche Erfahrungen von Software wie PhotoShop, Rhinoceros 3D usw. gesammelt und bin für die Teamarbeit geeignet. Jetzt schließe ich mein neues Studium ab und wollte eine Arbeit im Bereich JavaScript Entwickler im Frontend suchen. Trotzdem fehle ich noch die Arbeitserfahrung im IT-Bereich, aber ich lerne äußerst schnell und bin fähig, die Tätigkeit der Arbeit zu übernehmen."</p>
+    </section>
+
+    <!-- Photography ------------------------------------------->
+    <section id="photography">
+      <h3>Photography</h3>
+      <hr>
+      <div id="projects">
+        <ul>
+          <li><a href="#"><img src="img/photography/project_1.jpg" alt="project_01"></a></li>
+          <li><a href="#"><img src="img/photography/project_2.jpg" alt="project_02"></a></li>
+          <li><a href="#"><img src="img/photography/project_3.jpg" alt="project_03"></a></li>
+          <li><a href="#"><img src="img/photography/project_4.jpg" alt="project_04"></a></li>
+          <li><a href="#"><img src="img/photography/project_5.jpg" alt="project_05"></a></li>
+          <li><a href="#"><img src="img/photography/project_6.jpg" alt="project_06"></a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Aufgabe ------------------------------------------->
+    <section id="aufgabe">
+      <h3>Aufgabe</h3>
+      <hr>
+      <p>Die Daten werden in localStorage gespeichert. Nach der Eingabe darf man nur das Wert von Value ändern. Die Sortierung basiert auf dem Buchstaben des Keys.
+      </p>
+      <div class="row-1">
+        <form id="form" method="post">
+          <div class="input-group">
+            <input id="inputKey" name="" value="" placeholder="Key">
+            <input id="inputValue" name="" value="" placeholder="Value">
+            <button type="button" id="btnSubmit">Submit</button>
+          </div>
+        </form>
+      </div>
+      <div class="row-2">
+        <hr>
+        <ul id="list"></ul>
+      </div>
+      <img id="btnSort" src="img/sort_button.png" alt="btnSort-1">
+      <img id="btnSort-2" src="img/sort_button_2.png" alt="btnSort-2">
+    </section>
+
+    <!-- Footer ------------------------------------------->
+    <footer>
+      <hr>
+      <p>
+        &copy; 2018 Kaidie Su
+      </p>
+    </footer>
+
+    <script type="text/javascript" src="js/main.js"></script>
+
+  </body>
+</html>
